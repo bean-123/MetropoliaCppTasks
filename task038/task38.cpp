@@ -10,7 +10,7 @@ int main(void)
 
     // p points to the beginning of the vector
     int *p = vector;
-    // we assume that the first element is mininal
+    // we assume that the first element is minimal
     int min = *p;
     // skip to next element
     p++;
