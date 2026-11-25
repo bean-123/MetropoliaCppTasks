@@ -12,7 +12,7 @@ int main(void)
     {
         cout << "Warning: Year falls outside the Gregorian era." << endl;
     }
-    else if ((year % 4 == 0 && year & 100 != 0) || (year % 400 == 0))
+    else if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0))
     {
         cout << "Leap year." << endl;
     }
